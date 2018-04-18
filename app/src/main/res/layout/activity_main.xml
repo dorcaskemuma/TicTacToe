@@ -13,7 +13,7 @@
         android:id="@+id/three"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="3X3"
+        android:text="Simple"
         android:textSize="50sp"
         android:layout_gravity="center"
         />
@@ -21,7 +21,7 @@
         android:id="@+id/five"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="5X5"
+        android:text="Hard"
         android:textSize="50sp"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"/>
