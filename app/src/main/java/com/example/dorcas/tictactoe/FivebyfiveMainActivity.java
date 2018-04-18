@@ -514,63 +514,125 @@ public class FivebyfiveMainActivity extends AppCompatActivity {
         x = b24.getText().toString();
         y = b25.getText().toString();
         if (a.equals("X") && b.equals("X") && c.equals("X") && d.equals("X") && e.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
             playerXWon++;
         }
         if (a.equals("X") && g.equals("X") && m.equals("X") && s.equals("X") && y.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
             playerXWon++;
         }
         if (a.equals("X") && f.equals("X") && k.equals("X") && p.equals("X") && u.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
             playerXWon++;
         }
         if (b.equals("X") && g.equals("X") && l.equals("X") && q.equals("X") && v.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
         }
         if (c.equals("X") && h.equals("X") && m.equals("X") && r.equals("X") && w.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
             playerXWon++;
         }
         if (d.equals("X") && i.equals("X") && n.equals("X") && s.equals("X") && x.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
             playerXWon++;
         }
         if (e.equals("X") && j.equals("X") && o.equals("X") && t.equals("X") && y.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
             playerXWon++;
         }
         if (f.equals("X") && g.equals("X") && h.equals("X") && i.equals("X") && j.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
         }
         if (k.equals("X") && l.equals("X") && m.equals("X") && n.equals("X") && o.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
             playerXWon++;
         }
         if (p.equals("X") && q.equals("X") && r.equals("X") && s.equals("X") && t.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
             playerXWon++;
         }
         if (u.equals("X") && v.equals("X") && w.equals("X") && x.equals("X") && y.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
             playerXWon++;
         }
         if (e.equals("X") && i.equals("X") && m.equals("X") && q.equals("X") && u.equals("X")) {
-            Toast.makeText(this, "Bingo X is winner", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "X is Winner", Toast.LENGTH_SHORT).show();
             end = true;
             playerXWon++;
         }
+
+
+
+        if (a.equals("O") && b.equals("O") && c.equals("O") && d.equals("O") && e.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+            playerOWon++;
+        }
+        if (a.equals("O") && g.equals("O") && m.equals("O") && s.equals("O") && y.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+            playerOWon++;
+        }
+        if (a.equals("O") && f.equals("O") && k.equals("O") && p.equals("O") && u.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+            playerOWon++;
+        }
+        if (b.equals("O") && g.equals("O") && l.equals("O") && q.equals("O") && v.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+        }
+        if (c.equals("O") && h.equals("O") && m.equals("O") && r.equals("O") && w.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+            playerOWon++;
+        }
+        if (d.equals("O") && i.equals("O") && n.equals("O") && s.equals("O") && x.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+            playerOWon++;
+        }
+        if (e.equals("O") && j.equals("O") && o.equals("O") && t.equals("O") && y.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+            playerOWon++;
+        }
+        if (f.equals("O") && g.equals("O") && h.equals("O") && i.equals("O") && j.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+        }
+        if (k.equals("O") && l.equals("O") && m.equals("O") && n.equals("O") && o.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+            playerOWon++;
+        }
+        if (p.equals("O") && q.equals("O") && r.equals("O") && s.equals("O") && t.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+            playerOWon++;
+        }
+        if (u.equals("O") && v.equals("O") && w.equals("O") && x.equals("O") && y.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+            playerOWon++;
+        }
+        if (e.equals("O") && i.equals("O") && m.equals("O") && q.equals("O") && u.equals("O")) {
+            Toast.makeText(this, "O is Winner", Toast.LENGTH_SHORT).show();
+            end = true;
+            playerOWon++;
+        }
+
 
         if(end){
             //set Scores
